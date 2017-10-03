@@ -2,5 +2,19 @@ body {
   position: relative;
 }
 
-#fixed-block {
+#fixed-block { position: fixed;
+	top: 0px; left:0px;
+}
+
+#footnotes { position: absolute;
+	bottom: 0px;
+}
+
+#with-offset { position:relative;
+	top: 100%;
+	}
+
+#floating-square { float:left; width:150px ; height: 150px;
+	margin-right: 5px;
+	margin-bottom: 5px
 }
